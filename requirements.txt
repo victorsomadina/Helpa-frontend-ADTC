@@ -1,0 +1,4 @@
+gradio>=4.44
+requests>=2.31
+pillow>=10.0
+opencv-python-headless>=4.9
