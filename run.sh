@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ONE command.
-#   curl -sL https://raw.githubusercontent.com/Yusasif-A/Helpa/main/run.sh | bash
+#   curl -sL https://raw.githubusercontent.com/victorsomadina/Helpa-frontend-ADTC/main/run.sh | bash
 set -euo pipefail
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd "$HERE"
@@ -9,7 +9,7 @@ say(){ printf "\n\033[1;32m▸ %s\033[0m\n" "$1"; }
 if [[ ! -f app.py ]]; then
   say "getting the app..."
   command -v git >/dev/null || { echo "git is required — install it, then re-run"; exit 1; }
-  git clone --depth 1 https://github.com/Yusasif-A/Helpa.git /tmp/helpa-src
+  git clone --depth 1 https://github.com/victorsomadina/Helpa-frontend-ADTC.git /tmp/helpa-src
   cd /tmp/helpa-src
 fi
 

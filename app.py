@@ -38,11 +38,11 @@ import requests
 from PIL import Image
 
 # ───────────────────────── config ──────────────────────────────────────────
-REPO        = "yusasif/Helpa-ADTC-challenge"
+REPO = "yusasif/Helpa-ADTC-challenge"
 MODEL_FILE  = "Helpa-Gemma4-E2B-Q4_K_M.gguf"  # same name on HF and locally -- no rename needed
 MMPROJ_FILE = "mmproj-Helpa-f16.gguf"
-MODEL_DIR   = os.environ.get("HELPA_MODEL_DIR", "./model")  # singular, matches the submission folder too
-PORT        = int(os.environ.get("LLAMA_PORT", 8098))
+MODEL_DIR = os.environ.get("HELPA_MODEL_DIR", "./model")  # singular, matches the submission folder too
+PORT = int(os.environ.get("LLAMA_PORT", 8098))
 LLAMA_BIN   = os.environ.get("LLAMA_SERVER_BIN")
 LLAMA_TAG   = "b10584"
 

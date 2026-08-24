@@ -1,5 +1,5 @@
 # Helpa - ONE command (Windows PowerShell)
-#   irm https://raw.githubusercontent.com/Yusasif-A/Helpa/main/run.ps1 | iex
+#   irm https://raw.githubusercontent.com/victorsomadina/Helpa-frontend-ADTC/main/run.ps1 | iex
 $ErrorActionPreference = "Stop"
 function Say($m){ Write-Host "`n> $m" -ForegroundColor Green }
 
@@ -9,7 +9,7 @@ if (-not (Test-Path ".\app.py")) {
     Write-Host "git is required. Install from https://git-scm.com then re-run."
     exit 1
   }
-  git clone --depth 1 https://github.com/Yusasif-A/Helpa.git "$env:TEMP\helpa-src"
+  git clone --depth 1 https://github.com/victorsomadina/Helpa-frontend-ADTC.git "$env:TEMP\helpa-src"
   Set-Location "$env:TEMP\helpa-src"
 }
 
