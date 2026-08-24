@@ -6,12 +6,12 @@ First-aid guidance in Yorùbá and English. Gemma 4 E2B, LoRA fine-tuned, GGUF Q
 
 **Mac / Linux:**
 ```bash
-curl -sL https://raw.githubusercontent.com/Yusasif-A/Helpa/main/run.sh | bash
+curl -sL https://raw.githubusercontent.com/victorsomadina/Helpa-frontend-ADTC/main/run.sh | bash
 ```
 
 **Windows (PowerShell):**
 ```powershell
-irm https://raw.githubusercontent.com/Yusasif-A/Helpa/main/run.ps1 | iex
+irm https://raw.githubusercontent.com/victorsomadina/Helpa-frontend-ADTC/main/run.ps1 | iex
 ```
 
 Downloads the model + vision projector + llama.cpp once, then runs entirely
